@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: umbdemobackend 
-          image: chaeschpi.azurecr.io/umb/demo/backend
+          image: ciqkubeacr.azurecr.io/umb/demo/backend
           ports:
           - containerPort: 5000
